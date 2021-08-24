@@ -1,23 +1,32 @@
 <template>
 
 <div class="svg-icon-list">
+  
   <div class="hover-icon">
-    <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0.27 24 24">
-      <title>GitHub</title>
-      <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-    </svg>
+    <a target="_blank" href="https://github.com/emraftis">
+      <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0.27 24 24">
+        <title>GitHub</title>
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+      </svg>
+    </a>
   </div>
+ 
   <div class="hover-icon">
-    <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
-      <title>LinkedIn</title>
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-    </svg>
+    <a target="_blank" href="https://linkedin.com/in/emraftis">
+      <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
+        <title>LinkedIn</title>
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+    </a>
   </div>
+
   <div class="hover-icon">
-    <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
-      <title>Instagram</title>
-      <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
-    </svg>
+    <a target="_blank" href="https://instagram.com/emraftis">
+      <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
+        <title>Instagram</title>
+        <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+      </svg>
+    </a>
   </div>
   <div class="hover-icon">
     
@@ -69,11 +78,11 @@
     
     <div class="page-content">
       <div class="profile-photo-container">
-        <img src="./assets/evanProfile.jpg" alt="Photo of Evan">
+        <img id="profile-pic" src="./assets/evanProfile.jpg" alt="Photo of Evan">
       </div>
       <ul>
-        <li>I'm a Canadian full-stack web developer - solving problems with NodeJS, Express, MongoDB, and VueJS. I consider myself a lifelong learner 
-        and I'm looking for a new challenge after 10 years in Commercial Finance. I have a passion for travel and I love to create things</li>
+        <li class="about-me-text">I'm a Canadian full-stack web developer - solving problems with NodeJS, Express, MongoDB, and VueJS. I consider myself a lifelong learner 
+        and I'm looking for a new challenge after 10 years in Commercial Finance. I have a passion for travel and I love to create things!</li>
       </ul>
     </div>
   </div>
@@ -83,9 +92,32 @@
     <h2 class="container-header">My Projects</h2>
     <div class="project-container">
       <ul>
-        <li><div class="project-card">First</div></li>
-        <li><div class="project-card">Second</div></li>
-        <li><div class="project-card">Third</div></li>
+        <li>
+          <div class="project-card" id="project-one">
+            <div class="project-card-contents">
+              <img class="project-img" src="./assets/Project1Screen.jpg" alt="Project Screenshot" />
+              <div id="project-one-details">
+                <ul>
+                  <li class="project-description">Calculator for NOI (Cash Flows) for commercial real estate and to estimate market value. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project-card" id="project-two">
+            <div class="project-card-contents">
+              <div id="project-one-details">
+                <ul>
+                  <li>One</li>
+                  <li>Two</li>
+                  <li>Three</li>
+                </ul>
+              </div>
+              <img class="project-img" src="./assets/Project2Screen.jpg" alt="Project Screenshot" />
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -93,7 +125,7 @@
 
   <div class="page-container" id="contact-page">
     <h2 class="container-header">Contact Me</h2>
-    <button class="contact-btn"><span class="strong-text">Let's Chat</span></button>
+    <p class="contact-text">Let's chat at <a href="mailto:raftisevan@gmail.com">raftisevan@gmail.com</a></p>
   </div>
 </div>
   
@@ -106,6 +138,7 @@ export default {
 </script>
 
 <style>
+/* CSS Reset */
 * {
   margin: 0;
   padding: 0;
@@ -117,52 +150,12 @@ export default {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
 }
-
-.intro-text {
-  color: rgb(205, 196, 245);
+ul {
+  list-style: none;
 }
 
-.down-arrow {
-  fill: rgb(205, 196, 245);
-  position: absolute;
-  bottom: 15vh;
-  left: 50%;
-  margin-left: -50px;
-}
 
-.landing-page {
-  background-color: rgba(15, 0, 39, 0.911);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 85vh;
-}
-
-.landing-page p {
-  font-size: 1.5rem;
-  width: 60%;
-}
-
-.intro-content {
-  display: flex;
-  justify-content: center;
-}
-
-.main-intro-text {
-  font-family: 'Rampart One', cursive;
-  color: white;
-  font-size: 5rem;
-}
-
-.special-base-text {
-  font-weight: 400;
-  font-style: italic;
-  color: rgb(137, 123, 201);
-  font-size: 110%;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
+/* Socials Bar */
 .svg-icon-list {
   position: fixed;
   bottom: 0rem;
@@ -175,7 +168,6 @@ export default {
   height: 75vh;
   text-align: center;
 }
-
 .hover-icon {
   margin-top: 2rem;
   cursor: pointer;
@@ -186,22 +178,61 @@ export default {
   margin-left: 0;
   margin-right: 0;
 }
-
 .hover-icon svg {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .hover-icon:hover {
-  box-shadow: 0 -0.5rem 2rem rgba(4, 4, 71, 0.85);
+  box-shadow: 0 -0.5rem 1.5rem rgba(4, 4, 71, 0.85);
   border-radius: 5rem;
+  transform: translateY(-4px);
+  transition: transform 0.2s ease-in-out;
 }
 
-ul {
-  list-style: none;
+
+/* Intro Page */
+.intro-text {
+  color: rgb(205, 196, 245);
+}
+.down-arrow {
+  fill: rgb(205, 196, 245);
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  margin-left: -50px;
+}
+.landing-page {
+  background-color: rgba(15, 0, 39, 0.911);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 85vh;
+}
+.landing-page p {
+  font-size: 1.5rem;
+  width: 60%;
+}
+.intro-content {
+  display: flex;
+  justify-content: center;
+}
+.main-intro-text {
+  font-family: 'Rampart One', cursive;
+  color: white;
+  font-size: 5rem;
+}
+.special-base-text {
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(137, 123, 201);
+  font-size: 110%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
+
+/* General Containers */
 .page-container {
   height: 100%;
   font-size: 2rem;
@@ -212,31 +243,10 @@ ul {
   padding-left: 30rem;
   padding-right: 30rem;
 }
-
 .container-header {
   font-size: 200%;
   padding-bottom: 2rem;
 }
-
-.project-container ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.project-card {
-  border: 1px solid black;
-  box-shadow: 0.35rem 0.25rem 0.5rem rgba(15, 0, 39, 0.5)
-}
-
-#about-page {
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position-x: center;
-}
-
 .page-content {
   display: flex;
   font-size: 1.5rem;
@@ -245,20 +255,77 @@ ul {
   margin-left: 2rem;
 }
 
-img {
+
+/* About Page */
+#about-page {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
+}
+.about-me-text {
+  line-height: 2rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+#profile-pic {
   max-width: 15rem;
   height: auto;
   padding-right: 3rem;
   border-radius: 50%;
 }
 
+
+/* Project Page */
 #projects-page {
   background-color: white;
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position-x: center;
 }
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+.project-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.project-card {
+  box-shadow: 0.35rem 0.25rem 0.5rem rgba(15, 0, 39, 0.5)
+}
+.project-img {
+  max-width: 40vh;
+}
+#project-one,
+#project-three {
+  margin-right: 0rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#project-two,
+#project-four {
+  margin-left: 0rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.project-card-contents {
+  display: flex;
+}
+#project-one-details {
+  margin-left: 3rem;
+  width: 15rem;
+}
+.project-description {
+  font-size: 1.5rem;
+}
 
+
+
+/* Contact Page */
 #contact-page {
   background-color: white;
   background-repeat: no-repeat;
@@ -266,28 +333,21 @@ img {
   background-position-x: center;
 }
 
-.contact-btn {
-  background-color: rgba(109, 124, 253, 0.8);
-  display: inline-block;
-  cursor: pointer;
-  max-width: 10rem;
-  padding: 1rem;
-  border-radius: 15px;
-  font-size: 75%;
-}
 
+/* S Screen */
 @media screen and (max-width: 699px) {
   .landing-page {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     min-height: 85vh;
   }
   .main-intro-text{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .landing-page p {
     font-size: 100%;
-    width: 100%;
+    width: 90%;
+    margin-left: 1rem;
   }
   .svg-icon-list {
     display: none;
@@ -305,15 +365,32 @@ img {
   }
   .page-container ul {
     margin-top: 2rem;
-    padding-right: 2rem;
   }
   .page-content {
     flex-direction: column;
     align-items: center;
   }
+  .container-header {
+    font-size: 3rem;
+  }
+  .about-me-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  #project-one,
+  #project-two,
+  #project-three,
+  #project-four {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .contact-text {
+    font-size: 1.2rem;
+  }
 }
 
 
+/* M Screen */
 @media screen and (min-width: 700px) {
   .landing-page {
     padding-left: 5rem;
@@ -337,11 +414,18 @@ img {
     padding-left: 5rem;
     padding-right: 5rem;
   }
+  #project-one,
+  #project-two,
+  #project-three,
+  #project-four {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
 }
 
 
-
-
+/* L Screen */
 @media screen and (min-width: 1210px) {
   .landing-page {
     padding-left: 15rem;
@@ -370,11 +454,24 @@ img {
     padding-left: 15rem;
     padding-right: 10rem;
   }
+  #project-one,
+  #project-three {
+    margin-right: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  #project-two,
+  #project-four {
+    margin-left: 10rem;
+    margin-top: 3rem;
+  }
+  .project-img {
+    max-width: 50vh;
+  }
 }
 
 
-
-
+/* XL Screen */
 @media screen and (min-width: 1650px) {
   .landing-page {
     padding-left: 20rem;
@@ -398,6 +495,9 @@ img {
     padding: 7rem;
     padding-left: 30rem;
     padding-right: 30rem;
+  }
+  .project-img {
+    max-width: 60vh;
   }
 }
 </style>
