@@ -1,35 +1,11 @@
 <template>
-
-
 <div class="workspace">
   <div class="landing-page" id="landing-page">
-    <div class="intro-content">
       <div class="intro-text">
         <h2 class="main-intro-text">Hi, I'm Evan Raftis.</h2>
-        <p class="base-intro-text">- a <span class="special-base-text">Finance Professional</span> looking for opportunities in <span class="special-base-text">Fintech</span> and <span class="special-base-text">Web Development!</span></p>
+        <p class="base-intro-text">- a <span class="special-base-text">Finance & Tech Professional</span> looking for opportunities in <span class="special-base-text">Fintech</span> and <span class="special-base-text">Web Development!</span></p>
       </div>
-      <div class="down-arrow">
-        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-          <g>
-            <g>
-              <path d="M511.224,129.196c-1.579-3.81-5.297-6.296-9.423-6.296H10.199c-4.126,0-7.844,2.486-9.423,6.296    c-1.578,3.811-0.705,8.198,2.211,11.115l245.801,245.801c1.992,1.992,4.601,2.987,7.212,2.987c2.611,0,5.22-0.995,7.212-2.987    l245.801-245.801C511.928,137.394,512.802,133.008,511.224,129.196z M256,364.477L34.823,143.299h442.355L256,364.477z"/>
-            </g>
-          </g>
-          <g>
-            <g>
-              <path d="M225.766,285.453l-84.944-84.944c-3.985-3.983-10.441-3.983-14.425,0c-3.983,3.984-3.983,10.442,0,14.425l84.944,84.944    c1.992,1.992,4.601,2.987,7.212,2.987c2.611,0,5.22-0.995,7.213-2.987C229.749,295.894,229.749,289.436,225.766,285.453z"/>
-            </g>
-          </g>
-          <g>
-            <g>
-              <path d="M259.475,319.161l-4.719-4.719c-3.985-3.983-10.441-3.983-14.425,0c-3.983,3.984-3.983,10.442,0,14.425l4.719,4.719    c1.992,1.992,4.601,2.987,7.212,2.987c2.611,0,5.22-0.995,7.213-2.987C263.458,329.602,263.458,323.144,259.475,319.161z"/>
-            </g>
-          </g>
-        </svg>
-      </div>
-    </div>
   </div>
-
 
   <div class="page-container" id="about-page">
     <h2 class="container-header">About Me</h2>
@@ -45,10 +21,9 @@
     </div>
   </div>
 
-
   <div class="page-container" id="projects-page">
     <h2 class="container-header">My Projects</h2>
-    <div class="project-container">
+    <div class="project-container"> 
       <ul>
         <li>
           <div class="project-card" id="project-one">
@@ -196,10 +171,48 @@
     </div>
   </div>
 
-
   <div class="page-container" id="contact-page">
-    <h2 class="container-header">Contact Me</h2>
-    <p class="contact-text">Let's chat at <a href="mailto:raftisevan@gmail.com">raftisevan@gmail.com</a></p>
+    <div class="contact-content">
+      <h2 class="container-header">Contact Me</h2>
+      <p class="contact-text">Let's chat at <a href="mailto:raftisevan@gmail.com">raftisevan@gmail.com</a></p>
+    </div>
+    <div class="hand-container">
+      <svg height="300" width="300" xmlns="http://www.w3.org/2000/svg" id="Capa_1" enable-background="new 0 0 503.848 503.848" viewBox="0 0 503.848 503.848">
+        <title>Let's Chat!</title>
+        <g>
+          <path d="m416.782 131.559h-34.051l-13.334 14.548c-2.738 2.988-7.719 1.05-7.719-3.003v-85.383c0-20.053 16.256-36.309 36.309-36.309h69.553c20.053 0 36.309 16.256 36.309 36.309v37.529c0 20.053-16.256 36.309-36.309 36.309h-18.796z" fill="#a6e7f0"/>
+            <g>
+              <path d="m321.015 70.239c-5.174-5.185-12.326-8.38-20.217-8.38-15.794 0-28.586 12.804-28.586 28.598v-32.419c0-7.891-3.206-15.044-8.38-20.206-5.174-5.185-12.314-8.38-20.217-8.38-15.794 0-28.597 12.804-28.597 28.586v-26.187c0-7.891-3.195-15.044-8.369-20.217-5.312-5.312-12.71-8.539-20.852-8.362-15.639.339-27.962 13.52-27.962 29.163v33.255c0-7.891-3.195-15.032-8.38-20.217-5.162-5.162-12.314-8.369-20.206-8.369-15.794 0-28.598 12.804-28.598 28.586v109.717l-.072 31.79 26.281 88.877 7.522 141.032-3.608 63.477h161.32c4.808 0 8.706-3.898 8.706-8.706v-74.807l11.052-16.101c11.428-16.658 17.545-36.386 17.545-56.592v-150.526-103.395c-.002-7.891-3.197-15.043-8.382-20.217z" fill="#ffe5c2"/>
+              <path d="m184.944 350.364c9.55 0 17.291-7.742 17.291-17.291 0-37.489-23.06-71.124-58.025-84.644l-14.369-5.558c-1.722-.666-2.857-2.322-2.857-4.169v-56.133c0-6.413-2.013-12.36-5.447-17.249-4.731-6.761-12.178-11.484-20.763-12.595v27.806c-5.435-7.766-14.452-12.849-24.663-12.849-1.953 0-3.86.192-5.71.547-2.313 4.263-3.626 9.149-3.626 14.34v132.663c0 12.347 3.144 24.421 9.034 35.132z" fill="#fed2a4"/>
+              <path d="m90.041 407.371v83.625c0 5.294 4.292 9.587 9.587 9.587h81.721v-157.422c0-37.489-23.06-71.124-58.025-84.644l-17.227-6.663v-59.196c0-6.413-2.013-12.36-5.447-17.249-5.435-7.766-14.452-12.849-24.663-12.849-8.312 0-15.84 3.366-21.286 8.812s-8.812 12.974-8.812 21.286v132.662c0 16.124 5.344 31.793 15.191 44.551z" fill="#ffe5c2"/>
+                <g fill="#fed2a4">
+                  <path d="m90.041 407.371v83.625c0 5.294 4.292 9.587 9.587 9.587h192.465c4.808 0 8.706-3.898 8.706-8.706v-6.727c-5.349-.082-127.955-.102-137.372-.101-18.983.002-34.365-15.386-34.365-34.369v-40.742c0-9.375-3.109-18.486-8.839-25.906l-20.122-26.055c-9.847-12.758-15.191-28.427-15.191-44.551v-132.664c0-5.554 1.509-10.754 4.131-15.221-3.949-1.905-8.373-2.983-13.053-2.983-8.312 0-15.84 3.366-21.286 8.812-5.447 5.447-8.812 12.974-8.812 21.286v132.664c0 16.124 5.344 31.793 15.191 44.551z"/>
+                  <path d="m100.65 65.691-.072 111.2h26.281v-139.68c-14.675 1.215-26.209 13.502-26.209 28.48z"/>
+                  <path d="m186.431 3.265c-15.794 0-28.598 12.792-28.598 28.586v33.839c0-.174-.01-.346-.013-.519v142.421h1.194c16.57 0 30.002-13.432 30.002-30.002v-174.203c-.852-.076-1.713-.122-2.585-.122z"/>
+                  <path d="m243.614 29.452c-15.3 0-27.793 12.015-28.56 27.114v151.026h1.493c16.57 0 30.002-13.432 30.002-30.002l.004-147.981c-.964-.098-1.948-.157-2.939-.157z"/>
+                  <path d="m300.798 61.859c-14.649 0-26.708 11.017-28.38 25.215v120.518c16.57 0 30.002-13.432 30.002-30.002v-115.683c-.537-.03-1.078-.048-1.622-.048z"/>
+                </g>
+            </g>
+            <g>
+              <path d="m48.134 105.458c-2.417 0-4.79-1.167-6.237-3.325l-.304-.453c-7.757-11.576-7.6-27.023.389-38.438 2.375-3.393 7.052-4.219 10.445-1.844 3.394 2.375 4.219 7.051 1.844 10.445-4.466 6.381-4.553 15.016-.218 21.487l.303.452c2.306 3.441 1.387 8.1-2.054 10.406-1.281.858-2.733 1.27-4.168 1.27z" fill="#fee97d"/>
+            </g>
+            <g>
+              <path d="m19.613 128.676c-2.418 0-4.791-1.167-6.238-3.327l-.767-1.145c-8.399-12.534-12.757-27.134-12.604-42.222s4.806-29.596 13.457-41.958c2.375-3.394 7.052-4.22 10.445-1.844 3.394 2.375 4.219 7.051 1.844 10.445-13.973 19.966-14.247 46.984-.681 67.23l.768 1.146c2.306 3.441 1.385 8.1-2.057 10.405-1.281.858-2.732 1.27-4.167 1.27z" fill="#fee97d"/>
+            </g>
+            <g>
+              <path d="m369.874 367.859c-1.484 0-2.984-.439-4.294-1.356-3.394-2.375-4.219-7.051-1.844-10.445 4.466-6.381 4.554-15.016.218-21.486l-.304-.452c-2.306-3.441-1.386-8.1 2.055-10.406 3.439-2.307 8.1-1.387 10.406 2.054l.304.453c7.756 11.576 7.6 27.022-.39 38.438-1.459 2.084-3.786 3.2-6.151 3.2z" fill="#fee97d"/>
+            </g>
+            <g>
+              <path d="m398.394 391.077c-1.484 0-2.984-.44-4.294-1.356-3.394-2.375-4.219-7.051-1.844-10.445 13.974-19.966 14.248-46.984.682-67.23l-.767-1.144c-2.307-3.44-1.388-8.1 2.054-10.406 3.438-2.308 8.1-1.388 10.405 2.053l.768 1.145c8.4 12.536 12.759 27.136 12.605 42.224-.152 15.087-4.807 29.597-13.458 41.958-1.459 2.085-3.786 3.201-6.151 3.201z" fill="#fee97d"/>
+            </g>
+            <g fill="#6bd9e7">
+              <path d="m429.007 47.732c-4.143 0-7.5 3.358-7.5 7.5v15.445h-16.694v-15.445c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v45.89c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-15.445h16.694v15.445c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-45.89c0-4.142-3.357-7.5-7.5-7.5z"/>
+              <path d="m462.585 74.677c-4.143 0-7.5 3.358-7.5 7.5v18.945c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-18.945c0-4.142-3.357-7.5-7.5-7.5z"/>
+              <path d="m462.585 44.308c-4.143 0-7.5 3.358-7.5 7.5v5.822c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-5.822c0-4.142-3.357-7.5-7.5-7.5z"/>
+            </g>
+        </g>
+      </svg>
+    </div>
   </div>
 </div>
 </template>
@@ -224,7 +237,6 @@ ul {
   list-style: none;
 }
 
-
 /* SVG Fills */
 .st0-vue{fill:#4DBA87;} 
 .st1-vue{fill:#425466;}
@@ -240,60 +252,37 @@ ul {
 .st3-html{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 .fil6{fill:#000;fill-opacity:.05098}
 
-
-
-
 /* Intro Page */
 .intro-text {
+  font-family: 'Titan One', cursive;
   color: rgb(205, 196, 245);
-}
-.down-arrow {
-  fill: rgb(205, 196, 245);
-  position: absolute;
-  top: 75vh;
-  left: 50%;
-  margin-left: -50px;
 }
 .landing-page {
   background-color: rgba(15, 0, 39, 0.911);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 85vh;
-}
-.landing-page p {
-  font-size: 1.5rem;
-  width: 60%;
-}
-.intro-content {
-  display: flex;
-  justify-content: center;
+  min-height: 92vh;
 }
 .main-intro-text {
-  font-family: 'Rampart One', cursive;
-  color: white;
-  font-size: 5rem;
+  font-family: 'Titan One', cursive;
+  color: rgb(205, 196, 245);
 }
 .special-base-text {
   font-weight: 400;
   font-style: italic;
   color: rgb(137, 123, 201);
   font-size: 110%;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  padding: 0 0.2rem;
 }
 
 
 /* General Containers */
 .page-container {
-  height: 100%;
-  font-size: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 7rem;
-  padding-left: 30rem;
-  padding-right: 30rem;
+  padding: 7rem 30rem;
 }
 .container-header {
   font-size: 200%;
@@ -301,42 +290,45 @@ ul {
 }
 .page-content {
   display: flex;
-  font-size: 1.5rem;
 }
-.page-content ul {
-  margin-left: 2rem;
-}
-
 .live-button, 
 .github-button {
   text-decoration: none;
   color: white;
-  padding: 0.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0.25rem;
-  background-color: rgb(72, 166, 255);
+  padding: 0.25rem 1.5rem;
+  margin: 0.25rem 0.75rem;
+  background-color: rgb(137, 123, 201);
+  transition: background-color 0.25s ease-in-out;
   border-radius: 1rem;
   font-size: 1.5rem;
-  margin-top: 2rem;
 }
 .live-button:hover, 
 .github-button:hover {
   background-color: rgb(52, 35, 80);
+  transition: background-color 0.25s ease-in-out;
 }
 
 
 /* About Page */
 #about-page {
   background-color: white;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position-x: center;
 }
 .about-me-text {
+  font-size: 1.4rem;
   line-height: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+  text-align: justify;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-left: 9px solid rgba(137, 123, 201, 0.85);
+  border-right: 5px solid rgba(137, 123, 201, 0.25);
+  transition: 0.5s ease-in-out;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.about-me-text:hover {
+  border-left: 9px solid rgba(137, 123, 201, 0.25);
+  border-right: 5px solid rgba(137, 123, 201, 0.85);
+  transition: 0.5s ease-in-out;
 }
 #profile-pic {
   max-width: 15rem;
@@ -349,33 +341,21 @@ ul {
 /* Project Page */
 #projects-page {
   background-color: white;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position-x: center;
 }
 .project-container {
   display: flex;
   justify-content: center;
 }
-.project-container ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 .project-card {
   box-shadow: 0.35rem 0.25rem 1.25rem rgba(15, 0, 39, 0.5);
   border-radius: 1rem;
+  margin: 3rem 0;
 }
 .project-img {
   max-width: 20rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  position: relative;
-  cursor: pointer;
-}
-.project-img:hover {
-  filter: blur(1rem);
+  border-bottom: 2px solid rgba(15, 0, 39, 0.25);
 }
 .img-overlay {
   position: absolute;
@@ -384,7 +364,7 @@ ul {
   border-radius: 1rem;
   background-color: rgba(35, 33, 37, 0.9);
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -393,102 +373,60 @@ ul {
 }
 .img-overlay:hover {
   opacity: 1;
-}
-#project-one-img {
-  padding-right: 0rem;
-  border-bottom: 1px solid rgba(15, 0, 39, 0.25);
-}
-#project-two-img {
-  padding-left: 1rem;
-  border-bottom: 1px solid rgba(15, 0, 39, 0.25);
-}
-#project-one,
-#project-three {
-  margin-right: 0rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-#project-two,
-#project-four {
-  margin-left: 0rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  transition: opacity 0.3s ease-in-out;
 }
 .project-card-contents {
   display: flex;
   position: relative;
 }
-#project-one-details {
-  display: flex;
-  flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-}
+#project-one-details,
 #project-two-details {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
+  padding: 0 2rem 1rem 2rem;
 }
 .project-icons {
   display: flex;
   justify-content: space-around;
-  margin-right: 0rem;
-  margin-left: 0rem;
   margin-top: 1.5rem;
 
 }
 .overlay-title {
-  margin: 1rem;
+  margin: 0.75rem;
 }
 .project-description {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0 3rem;
 }
 
 
 /* Contact Page */
 #contact-page {
   background-color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
+  min-height: 30vh;
+  z-index: 999;
+}
+.contact-content {
+  z-index: 50;
+}
+.hand-container {
+  position: absolute;
+  right: 30%;
 }
 
 
 /* S Screen */
 @media screen and (max-width: 699px) {
   .landing-page {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    min-height: 85vh;
+    padding: 0 1rem;
   }
   .main-intro-text{
     font-size: 2.2rem;
   }
   .landing-page p {
-    font-size: 100%;
     width: 90%;
-    margin-left: 1rem;
-  }
-  .svg-icon-list {
-    display: none;
-  }
-  .down-arrow {
-    bottom: 5vh;
   }
   .page-container {
-    height: 100%;
-    font-size: 2rem;
-    padding: 5rem;
-    padding-bottom: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .page-container ul {
-    margin-top: 2rem;
+    padding: 5rem 1rem 0 1rem;
   }
   .page-content {
     flex-direction: column;
@@ -500,15 +438,6 @@ ul {
   .about-me-text {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    margin-right: 0.8rem;
-    margin-left: 0
-  }
-  #project-one,
-  #project-two,
-  #project-three,
-  #project-four {
-    margin-right: 0;
-    margin-left: 0;
   }
   .contact-text {
     font-size: 1.2rem;
@@ -523,29 +452,9 @@ ul {
   #reverse-column {
     flex-direction: column-reverse;
   }
-  .project-icons {
-    margin-left: 0;
-  }
   .project-description {
     font-size: 0.8rem;
-    padding: 0rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  #project-one-details {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  #project-two-details {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
   }
   .overlay-title {
     margin: 0.8rem;
@@ -557,13 +466,10 @@ ul {
   }
 }
 
-
 /* M Screen */
 @media screen and (min-width: 700px) {
   .landing-page {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    min-height: 85vh;
+    padding: 0 5rem;
   }
   .main-intro-text{
     font-size: 3rem;
@@ -572,79 +478,39 @@ ul {
     font-size: 120%;
     width: 85%;
   }
-  .svg-icon-list {
-    display: none;
-  }
   .page-container {
-    height: 100%;
     font-size: 2rem;
-    padding: 7rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-  #project-one,
-  #project-two,
-  #project-three,
-  #project-four {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .project-img {
-    max-width: 100%;
-    cursor: pointer;
-  }
-  .project-card-contents {
-    flex-direction: column;
-  }
-  #project-one-img {
-    padding-right: 0rem;
-    border-right: none;
-    border-bottom: 1px solid rgba(15, 0, 39, 0.25);
-  }
-  #project-two-img {
-    padding-left: 0rem;
-    border-left: none;
-    border-bottom: 1px solid rgba(15, 0, 39, 0.25);;
-  }
-  #reverse-column {
-    flex-direction: column-reverse;
-  }
-  .project-icons {
-    margin-left: 0;
-  }
-  #project-one-details {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-  }
-  #project-two-details {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-  }
-  .project-description {
-    font-size: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    padding: 7rem 5rem 7rem 5rem;
   }
   .page-content {
     flex-direction: column;
     align-items: center;
   }
-
+  .project-img {
+    max-width: 100%;
+  }
+  .project-card-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  #reverse-column {
+    flex-direction: column-reverse;
+  }
+  #project-one-details,
+  #project-two-details {
+    padding: 0 2rem 1rem 2rem;
+  }
+  .project-description {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
 }
 
 
 /* L Screen */
 @media screen and (min-width: 1210px) {
   .landing-page {
-    padding-left: 15rem;
-    padding-right: 10rem;
-    min-height: 85vh;
+    padding: 0 10rem;
   }
   .main-intro-text{
     font-size: 5rem;
@@ -653,72 +519,38 @@ ul {
     font-size: 150%;
     width: 75%;
   }
-  .svg-icon-list {
-    display: inline-block;
-    transform: scale(1);
-    margin-left: 3rem;
-  }
   .project-container ul {
     width: 75%;
   }
   .page-container {
     height: 100%;
     font-size: 2rem;
-    padding: 7rem;
-    padding-left: 15rem;
-    padding-right: 10rem;
+    padding: 7rem 10rem;
   }
   .page-content {
     flex-direction: row;
   }
   #project-one,
   #project-three {
-    margin-right: 10rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 10rem 3rem 0;
   }
   #project-two,
   #project-four {
-    margin-left: 10rem;
-    margin-top: 3rem;
-  }
-  .project-img {
-    max-width: 100%;
+    margin: 3rem 0 0 10rem;
   }
   .project-card-contents {
     flex-direction: column;
   }
-  #reverse-column {
-    flex-direction: column-reverse;
-  }
-  .project-icons {
-    margin-left: 0;
-  }
   .project-description {
-    font-size: 1rem;
-  }
-  #project-one-details {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  #project-one-details ul {
-    width: 100%;
-  }
-  #project-two-details ul {
-    width: 100%;
+    font-size: 1.1rem;
   }
 }
 
 
 /* XL Screen */
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1700px) {
   .landing-page {
-    padding-left: 20rem;
-    padding-right: 15rem;
-    min-height: 85vh;
+    padding: 0 15rem;
   }
   .main-intro-text{
     font-size: 6rem;
@@ -727,19 +559,9 @@ ul {
     font-size: 175%;
     width: 60%;
   }
-  .svg-icon-list {
-    display: inline-block;
-    transform: scale(1);
-    margin-left: 5rem;
-  }
   .page-container {
     font-size: 2rem;
-    padding: 7rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
-  }
-  .project-img {
-    max-width: 50vh;
+    padding: 7rem 30rem;
   }
   .project-img {
     max-width: 100%;
@@ -747,27 +569,13 @@ ul {
   .project-card-contents {
     flex-direction: column;
   }
-  #reverse-column {
-    flex-direction: column-reverse;
-  }
-  .project-icons {
-    margin-left: 0;
-  }
   .project-description {
-    font-size: 1rem;
+    font-size: 1.17rem;
   }
   #project-one-details {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  #project-one-details ul {
-    width: 100%;
-  }
-  #project-two-details ul {
-    width: 100%;
+    padding: 0 1rem 1rem 1rem;
   }
 }
 </style>
