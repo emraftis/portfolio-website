@@ -131,9 +131,15 @@ a:hover {
 .burger {
   margin-top: 0rem;
   cursor: pointer;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  transition: 0.25s;
+
 }
 .burger:hover {
   transform: scale(1.25);
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
   transition: 0.25s;
 }
 .burger-container {
@@ -162,6 +168,8 @@ a:hover {
   height: 100vh;
   width: 100%;
   transform: translateX(-100%);
+  -webkit-transition: transform 0.25s ease-in-out;
+  -moz-transition: transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
   z-index: 100;
 }
@@ -173,6 +181,8 @@ a:hover {
   height: 100vh;
   width: 100%;
   transform: translateX(0%);
+  -webkit-transition: transform 0.25s ease-in-out;
+  -moz-transition: transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
   z-index: 100;
 }
