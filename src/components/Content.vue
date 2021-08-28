@@ -176,8 +176,8 @@
                 <p class="project-description">Simple application to track Ethereum Gas Fees paid by an Ethereum Wallet address. This project was created to help with personal taxes relating to Cryptocurrency.</p>
                 <p class="project-description">Technologies used include Express, NodeJS, VueJS, APIs from Coinbase and Etherscan.</p>
                 <div class="button-container">
-                  <a class="live-button" target="_blank" href="https://real-estate-project-14317.web.app/">Live Site</a>
-                  <a class="github-button" target="_blank" href="https://github.com/emraftis/real-estate-project">GitHub</a>
+                  <a class="live-button" target="_blank" href="https://blockchain-project-gastax.herokuapp.com/">Live Site</a>
+                  <a class="github-button" target="_blank" href="https://github.com/emraftis/blockchain-project-backend">GitHub</a>
                 </div>
               </div>
               <div id="project-three-details">
