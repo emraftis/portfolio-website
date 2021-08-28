@@ -167,6 +167,56 @@
             </div>
           </div>
         </li>
+        <li>
+          <div class="project-card" id="project-three">
+            <div class="project-card-contents">
+              <img class="project-img" id="project-three-img" src="../assets/Project3Screen.jpg" alt="Project Screenshot" />
+              <div class="img-overlay" onclick>
+                <div class="overlay-title">Ethereum Gas Tracker</div>
+                <p class="project-description">Simple application to track Ethereum Gas Fees paid by an Ethereum Wallet address. This project was created to help with personal taxes relating to Cryptocurrency.</p>
+                <p class="project-description">Technologies used include Express, NodeJS, VueJS, APIs from Coinbase and Etherscan.</p>
+                <div class="button-container">
+                  <a class="live-button" target="_blank" href="https://real-estate-project-14317.web.app/">Live Site</a>
+                  <a class="github-button" target="_blank" href="https://github.com/emraftis/real-estate-project">GitHub</a>
+                </div>
+              </div>
+              <div id="project-three-details">
+                <div class="project-icons">
+                  <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1333.33 773.55" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+                    <title>Express</title>
+                    <path d="M1333.33 753.49c-48.5 12.33-78.5.54-105.41-39.87L1036.5 448.79l-27.67-36.67L785.29 714.5c-25.54 36.38-52.33 52.2-100 39.33l286.25-384.25-266.5-347.09c45.83-8.91 77.5-4.38 105.62 36.67l198.54 268.13 200-266.67c25.62-36.38 53.17-50.2 99.17-36.8l-103.33 137-140 182.29c-16.67 20.83-14.38 35.09.96 55.2l267.33 355.18zM.34 363.16l23.41-115.17c63.75-227.92 325-322.63 505.17-181.8 105.29 82.83 131.46 200 126.25 331.25H61.67C52.76 633.69 222.8 776.27 439.58 703.53c76.04-25.54 120.83-85.09 143.25-159.58 11.38-37.33 30.2-43.17 65.29-32.5-17.91 93.17-58.33 171-143.75 219.71-127.62 72.91-309.8 49.33-405.62-52C41.66 620.36 18.08 545.87 7.5 466.2c-1.67-13.17-5-25.71-7.5-38.33.22-21.56.34-43.11.34-64.67v-.04zm62.41-15.83h536.33c-3.5-170.83-109.87-292.17-255.25-293.2-159.58-1.25-274.17 117.2-281.09 293.2h.01z" fill-rule="nonzero"/>
+                  </svg>
+                  <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 109 122.88">
+                    <title>NodeJS</title>
+                    <path class="cls-1" d="M68.43,87.08c-19.7,0-23.83-9-23.83-16.63a1.3,1.3,0,0,1,1.3-1.3h5.82A1.3,1.3,0,0,1,53,70.25c.88,5.93,3.49,8.92,15.41,8.92C77.9,79.17,81.93,77,81.93,72c0-2.9-1.15-5-15.89-6.49-12.33-1.22-20-3.93-20-13.8,0-9.08,7.66-14.49,20.5-14.49,14.42,0,21.56,5,22.46,15.76a1.31,1.31,0,0,1-.35,1,1.35,1.35,0,0,1-1,.42H81.9a1.29,1.29,0,0,1-1.26-1c-1.41-6.23-4.81-8.23-14.07-8.23C56.21,45.15,55,48.76,55,51.46c0,3.28,1.42,4.24,15.4,6.09S90.82,62,90.82,71.71,82.64,87.14,68.37,87.14l.06-.06Zm-13.91,35.8a9.45,9.45,0,0,1-4.72-1.26l-15-8.9c-2.25-1.26-1.15-1.7-.41-2a30.38,30.38,0,0,0,6.8-3.1,1.15,1.15,0,0,1,1.12.08l11.55,6.85a1.51,1.51,0,0,0,1.4,0l45-26a1.42,1.42,0,0,0,.69-1.22V35.43a1.44,1.44,0,0,0-.7-1.24l-45-26a1.38,1.38,0,0,0-1.39,0l-45,26a1.42,1.42,0,0,0-.71,1.23v52a1.39,1.39,0,0,0,.7,1.21l12.33,7.12C27.85,99.06,32,95.11,32,91.15V39.86a1.29,1.29,0,0,1,1.31-1.3H39a1.29,1.29,0,0,1,1.3,1.3V91.17c0,8.93-4.87,14-13.33,14-2.6,0-4.66,0-10.38-2.82L4.72,95.59A9.51,9.51,0,0,1,0,87.38v-52a9.47,9.47,0,0,1,4.72-8.21l45.07-26a9.89,9.89,0,0,1,9.47,0l45,26A9.49,9.49,0,0,1,109,35.43v52a9.54,9.54,0,0,1-4.72,8.21l-45,26a9.5,9.5,0,0,1-4.74,1.26v0Zm0,0Z"/>
+                  </svg>
+                  <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 122.88 106.42" style="enable-background:new 0 0 122.88 106.42" xml:space="preserve">
+                    <title>VueJS</title>
+                    <g>
+                      <polygon class="st0-vue" points="75.63,0 61.44,24.58 47.25,0 0,0 61.44,106.42 122.88,0 75.63,0"/>
+                      <polygon class="st1-vue" points="75.63,0 61.44,24.58 47.25,0 24.58,0 61.44,63.85 98.3,0 75.63,0"/>
+                    </g>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xml:space="preserve" width="40" height="40" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39">
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"/>
+                      <g id="_1421394342400">
+                        <g>
+                          <polygon fill="#343434" fill-rule="nonzero" points="392.07,0 383.5,29.11 383.5,873.74 392.07,882.29 784.13,650.54 "/>
+                          <polygon fill="#8C8C8C" fill-rule="nonzero" points="392.07,0 -0,650.54 392.07,882.29 392.07,472.33 "/>
+                          <polygon fill="#3C3C3B" fill-rule="nonzero" points="392.07,956.52 387.24,962.41 387.24,1263.28 392.07,1277.38 784.37,724.89 "/>
+                          <polygon fill="#8C8C8C" fill-rule="nonzero" points="392.07,1277.38 392.07,956.52 -0,724.89 "/>
+                          <polygon fill="#141414" fill-rule="nonzero" points="392.07,882.29 784.13,650.54 392.07,472.33 "/>
+                          <polygon fill="#393939" fill-rule="nonzero" points="0,650.54 392.07,882.29 392.07,472.33 "/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -375,7 +425,8 @@ ul {
   position: relative;
 }
 #project-one-details,
-#project-two-details {
+#project-two-details,
+#project-three-details {
   display: flex;
   flex-direction: column;
   padding: 0 2rem 1rem 2rem;
