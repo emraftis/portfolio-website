@@ -8,13 +8,6 @@
           <span id="my-name-capital">R</span
           ><span id="my-name-lower">AFTIS</span>.
         </h2>
-        <p class="base-intro-text">
-          - a
-          <span class="special-base-text">Finance & Tech Professional</span>
-          looking for opportunities in
-          <span class="special-base-text">Fintech</span> and
-          <span class="special-base-text">Web Development!</span>
-        </p>
         <div class="landing-buttons">
           <a
             class="landing-button"
